@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+h1 {
+    margin: 50px;
+}
+
+form {
+    display: flex;
+    gap: 55px;
+    margin: 50px;
+}
+
+input {
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+}
+
+.buttons {
+    margin: 50px;
+    display: flex;
+    gap: 55px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    gap: 20px;
+    font-size: 24px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #ffc006;
+    margin: 50px;
+}
+
+td, th {
+    border: 1px solid #ffc006;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+}
+
+th {
+    background: #ffc006;
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+th:nth-of-type(2) {
+    background: #e5ae30;
+}
+
+td {
+    background: #382c6e;
+    color: white;
+    text-align: left;
+    font-size: 24px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Append table</title>
+</head>
+<body>
+    <h1>Append table</h1>
+    <div class="forma">
+        <form id="myForm">
+            <input type="text" id="fname" name="fname" placeholder="vardas">
+            <input type="text" id="lname" name="lname" placeholder="pavardė">
+            <input type="number" id="age" name="age" placeholder="amžius">
+          </form>
+    </div>
+    <div class="buttons">
+        <button button type="button" onclick="pridejimas()">Pridėti</button>
+        <button button type="button" onclick="myFirstDeleteFunction()">Ištrinti pirmą</button>
+        <button button type="button" onclick="myLastDeleteFunction()">Ištrinti paskutinį</button>
+    </div>
+    <table id="myTable">
+        <th>VARDAS</th>
+        <th>PAVARDĖ</th>
+        <th>AMŽIUS</th>
+        <tr>
+            <td>Jonas</td>
+            <td>Rimkus</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>Vestina</td>
+            <td>Petronytė</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>Marius</td>
+            <td>Dulinskas</td>
+            <td>23</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
